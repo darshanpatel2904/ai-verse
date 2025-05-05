@@ -1,0 +1,17 @@
+<svg
+  viewBox="0 0 32 32"
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32">
+  <circle cx="16" cy="16" r="16" fill="rgb(196, 184, 245, 0.2)"></circle>
+  <text
+    x="16"
+    y="21"
+    font-family="Inter, sans-serif"
+    font-size="18"
+    font-weight="bold"
+    fill="#C4B8F5"
+    text-anchor="middle">
+    A
+  </text>
+</svg>

@@ -1,0 +1,15 @@
+export const agentCategoriesMapping = {
+  research: "Research",
+  business: "Business",
+  marketing: "Marketing",
+  data: "Data",
+  education: "Education",
+  support: "Support",
+  media: "Media",
+  development: "Development",
+  productivity: "Productivity",
+  automation: "Automation",
+  security: "Security",
+  personal: "Personal",
+  other: "Other",
+} as const;
