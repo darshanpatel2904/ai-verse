@@ -1,5 +1,5 @@
 {
-  "id": "6b9f385c-dcf5-41f2-a624-910024ecf1c7",
+  "id": "015e3391-0eb9-49f8-90d9-61dc8ef6c78a",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -40,6 +40,13 @@
           "primaryKey": false,
           "notNull": true,
           "default": "'user'"
+        },
+        "credits": {
+          "name": "credits",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
         },
         "deleteAt": {
           "name": "deleteAt",

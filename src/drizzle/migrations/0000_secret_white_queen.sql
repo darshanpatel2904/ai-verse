@@ -6,6 +6,7 @@ CREATE TABLE "users" (
 	"name" text NOT NULL,
 	"email" text NOT NULL,
 	"role" "user_role" DEFAULT 'user' NOT NULL,
+	"credits" double precision DEFAULT 0 NOT NULL,
 	"deleteAt" timestamp with time zone,
 	"createdAt" timestamp with time zone DEFAULT now() NOT NULL,
 	"updatedAt" timestamp with time zone DEFAULT now() NOT NULL,

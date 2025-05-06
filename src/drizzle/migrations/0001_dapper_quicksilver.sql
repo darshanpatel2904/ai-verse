@@ -1,1 +1,0 @@
-ALTER TABLE "users" ADD COLUMN "credits" double precision DEFAULT 0 NOT NULL;
